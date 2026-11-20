@@ -1,0 +1,8 @@
+/* Christmas 2026: twinkling stars over the hero banner. Remove this file and the .xmas-stars block after the season. */
+.xmas-stars{position:absolute;inset:0;pointer-events:none;z-index:1}
+.xmas-stars i{position:absolute;width:var(--s);height:var(--s);margin:calc(var(--s)/-2) 0 0 calc(var(--s)/-2);border-radius:50%;background:radial-gradient(circle,#fff 0%,#fff6dd 35%,rgba(255,246,221,0) 70%);opacity:.15;box-shadow:0 0 calc(var(--s)*2) calc(var(--s)/2) rgba(255,244,214,.55);animation:xmas-twinkle var(--d) ease-in-out var(--w) infinite}
+.xmas-stars i.bethlehem{width:34px;height:34px;margin:-17px 0 0 -17px;--d:4s;--w:0s;background:radial-gradient(circle,rgba(255,250,232,.95) 0%,rgba(255,226,160,.45) 30%,rgba(255,215,140,0) 70%);box-shadow:none;animation-name:xmas-pulse}
+@keyframes xmas-twinkle{0%,100%{opacity:.12;transform:scale(.7)}50%{opacity:1;transform:scale(1.25)}}
+@keyframes xmas-pulse{0%,100%{opacity:.55;transform:scale(.85)}50%{opacity:1;transform:scale(1.15)}}
+@media(prefers-reduced-motion:reduce){.xmas-stars i{animation:none;opacity:.6}}
+@media(max-width:600px){.xmas-stars i:not(.bethlehem){--s:2px}}
