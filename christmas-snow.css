@@ -3,3 +3,8 @@
 .xmas-flake{position:absolute;top:-30px;opacity:.85;animation:xmas-fall linear infinite}
 @keyframes xmas-fall{from{transform:translate3d(0,-30px,0) rotate(0deg)}to{transform:translate3d(18px,110vh,0) rotate(200deg)}}
 @media(prefers-reduced-motion:reduce){.xmas-flake{display:none}}
+/* Extra snow over the title of the Annunciation picture. Only sits on top of the picture; the picture is not changed. */
+.xmas-title-snow{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:2}
+.xmas-title-snow .xmas-flake{top:-20px;animation-name:xmas-fall-picture}
+@keyframes xmas-fall-picture{from{transform:translate3d(0,-20px,0) rotate(0deg)}to{transform:translate3d(14px,900px,0) rotate(200deg)}}
+@media(prefers-reduced-motion:reduce){.xmas-title-snow{display:none}}
