@@ -1,0 +1,5 @@
+/* Christmas 2026: snow falling across the home page. Remove this file and its two lines in index.html after the season. */
+.xmas-snowfall{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:50}
+.xmas-flake{position:absolute;top:-30px;opacity:.85;animation:xmas-fall linear infinite}
+@keyframes xmas-fall{from{transform:translate3d(0,-30px,0) rotate(0deg)}to{transform:translate3d(18px,110vh,0) rotate(200deg)}}
+@media(prefers-reduced-motion:reduce){.xmas-flake{display:none}}
