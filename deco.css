@@ -1,13 +1,13 @@
 /* Christmas decoration layer for the simulation only. Frames and surroundings only; pictures and text are not changed. */
 .sunset-home .heritage-hub .photo-grid{position:relative}
-.dz-garl{position:absolute;width:130px;height:auto;z-index:6;pointer-events:none}
+.dz-garl{position:absolute;width:150px;height:auto;z-index:6;pointer-events:none}
 .dz-garl.tl{left:-34px;top:-34px}
 .dz-garl.tr{right:-34px;top:-34px;transform:scaleX(-1)}
-.dz-garl.bl{left:-34px;bottom:-34px;transform:scaleY(-1)}
-.dz-garl.br{right:-34px;bottom:-34px;transform:scale(-1,-1)}
+.dz-garl.bl{left:-30px;bottom:-30px;transform:scaleY(-1)}
+.dz-garl.br{right:-30px;bottom:-30px;transform:scale(-1,-1)}
 .dz-bauble{position:absolute;right:-150px;top:-70px;width:140px;height:auto;z-index:6;pointer-events:none}
 .dz-tree{position:absolute;right:-30px;bottom:-96px;width:110px;height:auto;z-index:5;pointer-events:none}
-.dz-snow{position:absolute;left:6%;right:6%;bottom:-10px;height:14px;border-radius:50%;background:linear-gradient(#f4f8ff,#d9e5f5);box-shadow:0 4px 9px rgba(0,0,0,.35);z-index:4;pointer-events:none}
+.dz-snow{position:absolute;left:4%;right:4%;bottom:-14px;height:22px;border-radius:50%;background:linear-gradient(#ffffff,#e6eef9 60%,#c9d8ee);box-shadow:0 5px 12px rgba(0,0,0,.4),0 0 14px rgba(255,255,255,.35);z-index:4;pointer-events:none}
 .sunset-home .heritage-hub .album-card{position:relative}
 .sunset-home .heritage-hub .album-card img{position:relative}
 .dz-hero-snow{position:absolute;left:12%;right:12%;bottom:-6px;height:12px;border-radius:50%;background:linear-gradient(#f4f8ff,#d9e5f5);z-index:4;pointer-events:none}
